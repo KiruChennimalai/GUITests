@@ -24,35 +24,69 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://dev.showhub.eu.meteorapp.com/')
 
-WebUI.click(findTestObject('a_Log in'))
+WebUI.click(findTestObject('null'))
 
 WebUI.setText(findTestObject('input_userEmail'), 'kiru.chennimalai+1@freemanco.com')
 
 WebUI.setText(findTestObject('input_password'), 'Password123')
 
-WebUI.click(findTestObject('button_Log in'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('i_0.1114747652410697'))
+WebUI.click(findTestObject('span_Show'))
 
-WebUI.click(findTestObject('canvas_FloorplanEditorMap'))
+WebUI.selectOptionByValue(findTestObject('select_English (GB)English (US'), 'en-GB', true)
 
-WebUI.click(findTestObject('canvas_FloorplanEditorMap'))
+WebUI.selectOptionByValue(findTestObject('select_Feet (ft)Meters (m)'), 'M', true)
 
-WebUI.click(findTestObject('i_0.247086533502215'))
+WebUI.selectOptionByValue(findTestObject('select_Pound Sterling - GBP ()'), 'GBP', true)
 
-WebUI.setText(findTestObject('input_FloorplanDetailModalStan'), '1007')
+WebUI.click(findTestObject('button_Save'))
 
-WebUI.click(findTestObject('button_Save stand to Draft'))
+WebUI.rightClick(findTestObject('div_Your changes have been sav'))
 
-WebUI.click(findTestObject('span_Changes'))
+WebUI.click(findTestObject('ol_SettingsShow'))
 
-WebUI.click(findTestObject('button_Publish'))
+WebUI.click(findTestObject('td_1'))
 
-WebUI.click(findTestObject('canvas_FloorplanEditorMap'))
+WebUI.doubleClick(findTestObject('th_'))
 
-WebUI.click(findTestObject('i_0.4258985089346248'))
+WebUI.click(findTestObject('th_'))
 
-WebUI.click(findTestObject('button_Publish'))
+WebUI.click(findTestObject('div_id(katalon-elementInfoDiv)'))
+
+WebUI.click(findTestObject('div_id(katalon-elementInfoDiv)'))
+
+WebUI.doubleClick(findTestObject('body___meteor_runtime_config__'))
+
+WebUI.click(findTestObject('button_Save'))
+
+WebUI.click(findTestObject('th_'))
+
+WebUI.click(findTestObject('div_id(katalon-elementInfoDiv)'))
+
+WebUI.click(findTestObject('th_'))
+
+WebUI.click(findTestObject('th_'))
+
+WebUI.click(findTestObject('td_15'))
+
+WebUI.doubleClick(findTestObject('th_'))
+
+WebUI.click(findTestObject('th_'))
+
+WebUI.click(findTestObject('th_'))
+
+WebUI.click(findTestObject('th_'))
+
+WebUI.click(findTestObject('th_'))
+
+WebUI.click(findTestObject('td_30'))
+
+WebUI.click(findTestObject('button_Save'))
+
+WebUI.rightClick(findTestObject('div_Your changes have been sav'))
+
+WebUI.click(findTestObject('div_Your changes have been sav'))
 
 WebUI.closeBrowser()
 

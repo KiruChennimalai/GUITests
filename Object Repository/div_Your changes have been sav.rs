@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_userEmail</name>
+   <name>div_Your changes have been sav</name>
    <tag></tag>
-   <elementGuidId>01c545ac-538c-40a0-a2ca-2d17980fc0b8</elementGuidId>
+   <elementGuidId>65cb5495-7ebc-41dc-ba48-444b497b499b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,35 +11,28 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>role</name>
       <type>Main</type>
-      <value>email</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>userEmail</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>example@domain.com</value>
+      <value>alert</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
+      <value>Toastify__toast-body</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your changes have been saved successfully</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +42,6 @@
       <value>id(&quot;render-target&quot;)/div[@class=&quot;online
 					xs
 					AppNav-closed
-					app&quot;]/div[@class=&quot;app__content&quot;]/main[@class=&quot;app__content__main&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;user-login col col-sm-12 col-md-4 col-lg-3&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;user-login__content card-block&quot;]/form[@class=&quot;user-login__form&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;form-control&quot;]</value>
+					app&quot;]/div[2]/div[@class=&quot;Toastify__toast-container Toastify__toast-container--top-right&quot;]/div[@class=&quot;Toastify__toast Toastify__toast--success&quot;]/div[@class=&quot;Toastify__toast-body&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

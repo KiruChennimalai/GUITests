@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Log in</name>
+   <name>th_</name>
    <tag></tag>
-   <elementGuidId>fc170e7e-1c72-4657-999f-b111dadf10f2</elementGuidId>
+   <elementGuidId>e3a47368-354f-4ae8-b04f-b99567005bd2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,30 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>th</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>class</name>
       <type>Main</type>
-      <value>/auth/login</value>
+      <value>prev</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Log in</value>
+      <value>«</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;render-target&quot;)/div[@class=&quot;online
-					xs
-					AppNav-closed
-					app&quot;]/div[@class=&quot;app__content&quot;]/header[@class=&quot;app__content__header&quot;]/nav[@class=&quot;app__content__header--online&quot;]/ul[@class=&quot;app__content__header--online__subnav&quot;]/li[2]/div[@class=&quot;user-actions&quot;]/a[1]</value>
+      <value>/html[1]/body[1]/div[@class=&quot;datepicker datepicker-dropdown dropdown-menu datepicker-orient-left datepicker-orient-top&quot;]/div[@class=&quot;datepicker-days&quot;]/table[@class=&quot;table-condensed&quot;]/thead[1]/tr[2]/th[@class=&quot;prev&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

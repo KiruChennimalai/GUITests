@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Log in</name>
+   <name>a_Log in</name>
    <tag></tag>
-   <elementGuidId>497e2890-35e0-412d-8a19-4cac254b858f</elementGuidId>
+   <elementGuidId>1609f51e-fda2-4ca4-b48d-6140ffd9f8d8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,28 +11,21 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>submit</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-primary</value>
+      <value>/auth/login</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Log in</value>
+      <value> Log in</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +35,6 @@
       <value>id(&quot;render-target&quot;)/div[@class=&quot;online
 					xs
 					AppNav-closed
-					app&quot;]/div[@class=&quot;app__content&quot;]/main[@class=&quot;app__content__main&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;user-login col col-sm-12 col-md-4 col-lg-3&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;user-login__content card-block&quot;]/form[@class=&quot;user-login__form&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+					app&quot;]/div[@class=&quot;app__content&quot;]/header[@class=&quot;app__content__header&quot;]/nav[@class=&quot;app__content__header--online&quot;]/ul[@class=&quot;app__content__header--online__subnav&quot;]/li[2]/div[@class=&quot;user-actions&quot;]/a[1]</value>
    </webElementProperties>
 </WebElementEntity>
