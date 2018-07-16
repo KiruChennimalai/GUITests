@@ -32,27 +32,5 @@ WebUI.setText(findTestObject('input_password'), 'Password123')
 
 WebUI.click(findTestObject('button_Log in'))
 
-WebUI.click(findTestObject('i_0.1114747652410697'))
-
-WebUI.click(findTestObject('canvas_FloorplanEditorMap'))
-
-WebUI.click(findTestObject('canvas_FloorplanEditorMap'))
-
-WebUI.click(findTestObject('i_0.247086533502215'))
-
-WebUI.setText(findTestObject('input_FloorplanDetailModalStan'), '1007')
-
-WebUI.click(findTestObject('button_Save stand to Draft'))
-
-WebUI.click(findTestObject('span_Changes'))
-
-WebUI.click(findTestObject('button_Publish'))
-
-WebUI.click(findTestObject('canvas_FloorplanEditorMap'))
-
-WebUI.click(findTestObject('i_0.4258985089346248'))
-
-WebUI.click(findTestObject('button_Publish'))
-
 WebUI.closeBrowser()
 

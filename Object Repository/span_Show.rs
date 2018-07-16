@@ -4,6 +4,12 @@
    <name>span_Show</name>
    <tag></tag>
    <elementGuidId>63c113ac-74a8-42dd-bf74-c69bfa0cef65</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;AppNav&quot;]/nav/ul/li[4]/ul/li[1]/a/span[2][count(. | //span[(text() = 'Show' or . = 'Show')]) = count(//span[(text() = 'Show' or . = 'Show')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,10 +34,10 @@
       <value>Show</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;AppNav&quot;)/nav[1]/ul[1]/li[4]/ul[1]/li[1]/a[1]/span[@class=&quot;AppNav-title&quot;]</value>
+      <value>//*[@id=&quot;AppNav&quot;]/nav/ul/li[4]/ul/li[1]/a/span[2]</value>
    </webElementProperties>
 </WebElementEntity>

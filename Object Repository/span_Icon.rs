@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_0.6536616836486331</name>
+   <name>span_Icon</name>
    <tag></tag>
-   <elementGuidId>eb663498-f619-4d85-b62d-f30861796e79</elementGuidId>
+   <elementGuidId>89cf0fcf-cd2c-4f83-86c0-70dcd551d582</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//i[@class = 'icon mdi mdi-settings ']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -16,22 +22,22 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>class</name>
       <type>Main</type>
-      <value>0.6536616836486331</value>
+      <value>icon mdi mdi-settings </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>text</name>
       <type>Main</type>
-      <value>icon mdi mdi-cube-outline </value>
+      <value>Settings	</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;0.6536616836486331&quot;)</value>
+      <value>//*[@id=&quot;AppNav&quot;]/nav/ul/li[4]/a/span[1]</value>
    </webElementProperties>
 </WebElementEntity>

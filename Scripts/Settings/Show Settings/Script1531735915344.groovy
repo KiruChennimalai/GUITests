@@ -17,20 +17,30 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKey
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'To log messages'
+KeywordLogger log = new KeywordLogger()
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dev.showhub.eu.meteorapp.com/')
+WebUI.navigateToUrl('https://dev.showhub.eu.meteorapp.com')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('a_Log in'))
 
 WebUI.setText(findTestObject('input_userEmail'), 'kiru.chennimalai+1@freemanco.com')
 
 WebUI.setText(findTestObject('input_password'), 'Password123')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('button_Log in'))
+
+if (WebUI.verifyElementPresent(findTestObject('span_Show'), 10)) {
+    log.logInfo('User successfully logged in')
+}
+
+WebUI.click(findTestObject('span_Icon'))
 
 WebUI.click(findTestObject('span_Show'))
 
@@ -42,51 +52,10 @@ WebUI.selectOptionByValue(findTestObject('select_Pound Sterling - GBP ()'), 'GBP
 
 WebUI.click(findTestObject('button_Save'))
 
-WebUI.rightClick(findTestObject('div_Your changes have been sav'))
-
-WebUI.click(findTestObject('ol_SettingsShow'))
-
-WebUI.click(findTestObject('td_1'))
-
-WebUI.doubleClick(findTestObject('th_'))
-
-WebUI.click(findTestObject('th_'))
-
-WebUI.click(findTestObject('div_id(katalon-elementInfoDiv)'))
-
-WebUI.click(findTestObject('div_id(katalon-elementInfoDiv)'))
-
-WebUI.doubleClick(findTestObject('body___meteor_runtime_config__'))
-
-WebUI.click(findTestObject('button_Save'))
-
-WebUI.click(findTestObject('th_'))
-
-WebUI.click(findTestObject('div_id(katalon-elementInfoDiv)'))
-
-WebUI.click(findTestObject('th_'))
-
-WebUI.click(findTestObject('th_'))
-
-WebUI.click(findTestObject('td_15'))
-
-WebUI.doubleClick(findTestObject('th_'))
-
-WebUI.click(findTestObject('th_'))
-
-WebUI.click(findTestObject('th_'))
-
-WebUI.click(findTestObject('th_'))
-
-WebUI.click(findTestObject('th_'))
-
-WebUI.click(findTestObject('td_30'))
-
-WebUI.click(findTestObject('button_Save'))
-
-WebUI.rightClick(findTestObject('div_Your changes have been sav'))
-
-WebUI.click(findTestObject('div_Your changes have been sav'))
+if(WebUI.click(findTestObject('div_Your changes have been sav'))){
+	
+	log.logInfo('Show settings have been saved successfully')
+}
 
 WebUI.closeBrowser()
 
