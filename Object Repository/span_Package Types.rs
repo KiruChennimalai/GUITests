@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_0.9296998342873986</name>
+   <name>span_Package Types</name>
    <tag></tag>
-   <elementGuidId>2bd28d7e-a0c3-47d8-adc2-e3e29de78ec2</elementGuidId>
+   <elementGuidId>01576a32-6e06-47dc-88f9-540b4f9989d6</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,27 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>class</name>
       <type>Main</type>
-      <value>0.9296998342873986</value>
+      <value>AppNav-title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>text</name>
       <type>Main</type>
-      <value>icon mdi mdi-rocket </value>
+      <value>Package Types</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;0.9296998342873986&quot;)</value>
+      <value>id(&quot;AppNav&quot;)/nav[1]/ul[1]/li[4]/ul[1]/li[5]/a[1]/span[@class=&quot;AppNav-title&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

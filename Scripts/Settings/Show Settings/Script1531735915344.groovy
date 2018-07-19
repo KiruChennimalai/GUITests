@@ -52,10 +52,18 @@ WebUI.selectOptionByValue(findTestObject('select_Pound Sterling - GBP ()'), 'GBP
 
 WebUI.click(findTestObject('button_Save'))
 
-if(WebUI.click(findTestObject('div_Your changes have been sav'))){
-	
-	log.logInfo('Show settings have been saved successfully')
-}
+WebUI.delay(10)
+
+WebUI.setText(findTestObject('input_settings.profile.name'), 'Customized Archive Expo 2019 test')
+
+WebUI.setText(findTestObject('input_settings.profile.venueNa'), 'test venue name')
+
+WebUI.setText(findTestObject('textarea_test address'), 'test address')
+
+WebUI.setText(findTestObject('input_settings.profile.zipcode'), 'gu52 6lu')
+
+WebUI.click(findTestObject('button_Save'))
 
 WebUI.closeBrowser()
+
 
